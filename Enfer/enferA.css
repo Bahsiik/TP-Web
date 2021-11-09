@@ -1,5 +1,5 @@
 body{
-    background-image: url("../Image/FondParadis.jpg");
+    background-image: url("../Image/fondenferA.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
 }
@@ -7,14 +7,14 @@ body{
 h1{
     font-size:  75px;
     text-align: center;
-    color: goldenrod;
+    color: darkred;
     text-shadow: 0 0 10px black, 0 0 16px lightgoldenrodyellow;
 }
 
 h2{
     font-size:  30px;
     text-align: center;
-    color: goldenrod;
+    color: darkred;
     text-shadow: 1px 1px 3px black, 1px 1px 10px lightgoldenrodyellow;
 }
 
