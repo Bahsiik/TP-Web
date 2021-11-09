@@ -1,0 +1,36 @@
+body{
+    background-image: url("../Image/FondParadis.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+h1{
+    font-size:  75px;
+    text-align: center;
+    color: goldenrod;
+    text-shadow: 0 0 10px black, 0 0 16px lightgoldenrodyellow;
+}
+
+h2{
+    font-size:  30px;
+    text-align: center;
+    color: goldenrod;
+    text-shadow: 1px 1px 3px black, 1px 1px 10px lightgoldenrodyellow;
+}
+
+.blue{
+    color: blue;
+}
+
+.red{
+    color: red;
+}
+
+.arrowSize{
+    width: 15%;
+}
+
+.arrow{
+    display: flex;
+    justify-content: space-evenly;
+}
