@@ -9,20 +9,28 @@ body{
 h1{
     font-size:  75px;
     text-align: center;
-    color: darkred;
+    color: darkorange;
     text-shadow: 0 0 10px black, 0 0 16px lightgoldenrodyellow;
 }
 
 h2{
     font-size:  30px;
     text-align: center;
-    color: darkred;
-    text-shadow: 0 0 3px black, 0 0 10px lightgoldenrodyellow;
+    color: darkorange;
+    text-shadow: 0 0 10px black;
+    border-radius: 30px;
+    background: rgba(0,0,0, 0.5);
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
 }
 
 .choix{
     display: flex;
     justify-content: space-evenly;
+
+
 }
 
 @media (orientation: portrait) {

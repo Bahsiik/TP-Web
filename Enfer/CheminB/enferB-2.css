@@ -17,12 +17,24 @@ h2{
     font-size:  30px;
     text-align: center;
     color: brown;
-    text-shadow: 0 0 3px black, 1px 1px 10px lightgoldenrodyellow;
+    text-shadow: 0 0 10px black;
+    border-radius: 30px;
+    background: rgba(0,0,0, 0.5);
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
 }
 
 .choix{
     display: flex;
     justify-content: space-evenly;
+    border-radius: 30px;
+    background: rgba(255,255,255, 0.1);
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
 }
 
 @media (orientation: portrait) {
