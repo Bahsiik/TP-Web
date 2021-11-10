@@ -1,7 +1,9 @@
 body{
     background-image: url("../../Image/Fonds/fondenferB.jpg");
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 h1{
@@ -21,4 +23,14 @@ h2{
 .choix{
     display: flex;
     justify-content: space-evenly;
+}
+
+@media (orientation: portrait) {
+    h1{
+        font-size:  40px;
+    }
+
+    h2{
+        font-size:  20px;
+    }
 }
